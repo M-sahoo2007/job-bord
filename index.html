@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Board</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Job Board</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Post a Job</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="search-section">
+            <input type="text" placeholder="Search for jobs..." id="search-bar">
+            <button type="button">Search</button>
+        </section>
+
+        <section class="job-listings">
+            <h2>Available Job Opportunities</h2>
+            <div class="job-card">
+                <h3>Software Engineer</h3>
+                <p>Company: Tech Solutions</p>
+                <p>Location: New York, NY</p>
+                <p>Category: IT</p>
+                <p>Description: We are looking for a skilled software engineer to join our team.</p>
+                <form action="apply.html" method="get">
+                <button type="submit">Apply Now</button></form>
+            </div>
+
+            <div class="job-card">
+                <h3>Marketing Manager</h3>
+                <p>Company: Creative Agency</p>
+                <p>Location: San Francisco, CA</p>
+                <p>Category: Marketing</p>
+                <p>Description: Seeking a marketing manager with experience in digital marketing.</p>
+                <form action="apply.html" method="get">
+                <button type="submit">Apply Now</button></form>
+            </div>
+
+            <div class="job-card">
+                <h3>Data Analyst</h3>
+                <p>Company: Data Insights</p>
+                <p>Location: Remote</p>
+                <p>Category: Data</p>
+                <p>Description: Looking for a data analyst to help us make data-driven decisions.</p>
+                <form action="apply.html" method="get">
+                <button  type="submit">Apply Now</button></form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Job Board. All rights reserved.</p>
+    </footer>
+</body>
+</html>
